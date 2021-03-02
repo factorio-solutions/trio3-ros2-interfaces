@@ -1,0 +1,7 @@
+geometry_msgs/PoseWithCovariance item_position
+string path_point_cloud
+---
+string status
+---
+geometry_msgs/PoseWithCovariance item_position_aligned
+int32[] partial_sequence
