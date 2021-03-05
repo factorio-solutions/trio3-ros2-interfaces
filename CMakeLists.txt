@@ -42,6 +42,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Align.action"
   "action/TrifocalScan.action"
   "action/ReplanTrajectory.action"
+  "action/RobotMove.action"
+  "srv/RobotState.srv"
+  "msg/StopRobot.msg"
   DEPENDENCIES geometry_msgs
  )
 
