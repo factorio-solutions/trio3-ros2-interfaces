@@ -1,0 +1,6 @@
+# Request data type
+---
+# Response data type
+geometry_msgs/Pose effector_pose
+bool gripper_is_open
+string info
