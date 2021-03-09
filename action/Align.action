@@ -1,7 +1,7 @@
 # A request message is sent from an action client to an action server initiating a new goal
 geometry_msgs/Pose item_position
-string item_path_point_cloud
-string scene_path_point_cloud
+sensor_msgs/PointCloud2 item_point_cloud
+sensor_msgs/PointCloud2 scene_point_cloud
 ---
 # A result message is sent from an action server to an action client when a goal is done.
 geometry_msgs/Pose item_position_aligned
