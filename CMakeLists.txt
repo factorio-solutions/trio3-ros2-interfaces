@@ -45,6 +45,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/RobotMove.action"
   "srv/RobotState.srv"
   "msg/StopRobot.msg"
+  "action/PickNPlace.action"
+  "msg/ObjectType.msg"
+  "msg/RobotStatus.msg"
   DEPENDENCIES geometry_msgs
  )
 
