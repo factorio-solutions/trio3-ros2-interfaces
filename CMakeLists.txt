@@ -50,6 +50,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/PickNPlace.action"
   "msg/ObjectType.msg"
   "msg/RobotStatus.msg"
+  "msg/Trajectory.msg"
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
   DEPENDENCIES sensor_msgs
