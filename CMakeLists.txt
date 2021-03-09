@@ -35,6 +35,8 @@ endif()
 # pridani novych interfacu pro msg a service
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ReturnMessage.srv"
@@ -49,6 +51,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ObjectType.msg"
   "msg/RobotStatus.msg"
   DEPENDENCIES geometry_msgs
+  DEPENDENCIES std_msgs
+  DEPENDENCIES sensor_msgs
  )
 
 ament_package()
