@@ -39,18 +39,21 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/ReturnMessage.srv"
-  "srv/PoseUpdate.srv"
   "action/Align.action"
-  "action/TrifocalScan.action"
+  "action/PickNPlace.action"
   "action/ReplanTrajectory.action"
   "action/RobotMove.action"
-  "srv/RobotState.srv"
-  "msg/StopRobot.msg"
-  "action/PickNPlace.action"
+  "action/TrifocalScan.action"
+
+  "srv/GetRobotStatus.srv"
+  "srv/PoseUpdate.srv"
+
+  "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
   "msg/RobotStatus.msg"
+  "msg/StopStatus.msg"
   "msg/Trajectory.msg"
+
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
   DEPENDENCIES sensor_msgs

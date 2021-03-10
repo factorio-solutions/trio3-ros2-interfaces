@@ -1,4 +1,4 @@
-int16 status
-
-int16 GRIPPER_OPENED = 0
-int16 GRIPPER_CLOSED = 1
+geometry_msgs/Pose effector_pose
+GripperStatus gripper_status
+StopStatus stop_status
+string info
