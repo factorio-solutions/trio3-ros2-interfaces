@@ -46,6 +46,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/TrifocalScan.action"
 
   "srv/GetRobotStatus.srv"
+  "srv/GetHomePose.srv"
   "srv/PoseUpdate.srv"
 
   "msg/GripperStatus.msg"
@@ -53,6 +54,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotStatus.msg"
   "msg/StopStatus.msg"
   "msg/Trajectory.msg"
+  "msg/RobotPose.msg"
+  "msg/Motion.msg"
+  "msg/Sector.msg"
+  "msg/Action.msg"
+  "msg/MotionType.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
