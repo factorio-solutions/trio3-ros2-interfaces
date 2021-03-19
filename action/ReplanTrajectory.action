@@ -1,5 +1,4 @@
 # A request message is sent from an action client to an action server initiating a new goal
-geometry_msgs/Pose start_pose
 geometry_msgs/Pose pick_pose
 geometry_msgs/Pose place_pose
 ---
