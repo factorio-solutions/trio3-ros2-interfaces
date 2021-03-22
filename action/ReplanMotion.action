@@ -1,0 +1,17 @@
+# joints_sequence
+    # Every join state is represented by 7 values
+    # Array have to be reshaped to 7 x joints_sequence_size when received
+        # joints_sequence   = np.array(joints_sequence)
+        # joints_sequence   = frames.reshape(7, joints_sequence_size)
+        # now every column represent one frame
+    # when sending frames
+        # joints_sequence = joints_sequence.reshape(7 x joints_sequence_size)
+
+
+float32[7] start_joints
+geometry_msgs/Pose end_pose
+ReplanMode mode
+---
+float32[] joints_sequence
+---
+string status
