@@ -44,6 +44,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/ReplanTrajectory.action"
   "action/RobotMove.action"
   "action/TrifocalScan.action"
+  "action/ReplanMotion.action"
 
   "srv/GetRobotStatus.srv"
   "srv/GetHomePose.srv"
@@ -59,6 +60,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Sector.msg"
   "msg/Action.msg"
   "msg/MotionType.msg"
+  "msg/ReplanMode.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
