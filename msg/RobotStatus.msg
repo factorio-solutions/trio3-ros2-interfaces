@@ -1,5 +1,3 @@
 RobotPose robot_pose
-StopStatus stop_status
 GripperStatus gripper_status
 bool robot_is_ready
-string info
