@@ -21,8 +21,6 @@ float32[7] end_joints
 Sector start_sector
 Sector end_sector
 
-Action start_action
-Action end_action
-Action on_fly_action
+MoveGripper move_gripper
 
 MotionType motion_type
