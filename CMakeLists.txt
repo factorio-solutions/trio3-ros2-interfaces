@@ -61,6 +61,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Action.msg"
   "msg/MotionType.msg"
   "msg/ReplanMode.msg"
+  "msg/MoveGripper.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs

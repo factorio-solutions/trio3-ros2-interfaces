@@ -1,5 +1,9 @@
 int16 motion_type
 
-int16 REPLANNED     = 0
-int16 HOME_2_HOME   = 1
-int16 APPROACH      = 2
+int16 NONE = 0
+int16 MOVE_TO_HOME = 1
+int16 MOVE_TO_FRAME = 2
+int16 MOVE_BY_JOINTS = 3
+int16 GRIPPER_ACTION = 4
+int16 PICK = 5
+int16 PLACE = 6
