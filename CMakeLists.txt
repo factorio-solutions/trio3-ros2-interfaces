@@ -49,6 +49,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetRobotStatus.srv"
   "srv/GetHomePose.srv"
   "srv/PoseUpdate.srv"
+  "srv/GetColorImage.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
@@ -62,6 +63,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotionType.msg"
   "msg/ReplanMode.msg"
   "msg/MoveGripper.msg"
+  "msg/GrayscaleImage.msg"
+  "msg/ColorImage.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
