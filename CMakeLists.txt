@@ -45,11 +45,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/RobotMove.action"
   "action/TrifocalScan.action"
   "action/ReplanMotion.action"
+  "action/HandEyeCalibration.action"
 
   "srv/GetRobotStatus.srv"
   "srv/GetHomePose.srv"
   "srv/PoseUpdate.srv"
   "srv/GetColorImage.srv"
+  "srv/SetRequest.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
