@@ -50,6 +50,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetRobotStatus.srv"
   "srv/GetHomePose.srv"
   "srv/PoseUpdate.srv"
+  "srv/PoseUpdateObject.srv"
   "srv/GetColorImage.srv"
   "srv/SetRequest.srv"
 

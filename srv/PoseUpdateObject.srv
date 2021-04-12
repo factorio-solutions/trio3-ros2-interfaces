@@ -1,0 +1,6 @@
+# Request data type
+geometry_msgs/Pose input_pose
+ObjectType object
+---
+# Response data type
+geometry_msgs/Pose output_pose
