@@ -53,6 +53,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PoseUpdateObject.srv"
   "srv/GetColorImage.srv"
   "srv/SetRequest.srv"
+  "srv/CheckCoordinate.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
