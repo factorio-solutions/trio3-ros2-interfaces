@@ -1,0 +1,3 @@
+geometry_msgs/Pose coordinate
+---
+bool is_valid
