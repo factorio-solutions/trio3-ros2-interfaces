@@ -7,5 +7,5 @@ ObjectType object
 bool done
 ---
 string status
-RobotStatus robot_status
-float32 progress
+CoreActionPhase core_action_phase
+

@@ -69,6 +69,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MoveGripper.msg"
   "msg/GrayscaleImage.msg"
   "msg/ColorImage.msg"
+  "msg/CoreActionPhase.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
