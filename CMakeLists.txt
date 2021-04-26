@@ -70,6 +70,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GrayscaleImage.msg"
   "msg/ColorImage.msg"
   "msg/CoreActionPhase.msg"
+  "msg/Units.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
