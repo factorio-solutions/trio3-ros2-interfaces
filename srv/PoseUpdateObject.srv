@@ -1,6 +1,7 @@
 # Request data type
 geometry_msgs/Pose input_pose
 ObjectType object
+int32 robot_id
 ---
 # Response data type
 geometry_msgs/Pose output_pose
