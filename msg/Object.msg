@@ -1,3 +1,4 @@
 ObjectType object_type
 sensor_msgs/PointCloud2 template_cloud
 geometry_msgs/Pose approach_offset
+geometry_msgs/Pose global_offset
