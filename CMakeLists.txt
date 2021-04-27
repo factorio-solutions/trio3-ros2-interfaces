@@ -55,6 +55,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetRequest.srv"
   "srv/CheckCoordinate.srv"
   "srv/GetObject.srv"
+  "srv/GetRobot.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
@@ -73,6 +74,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CoreActionPhase.msg"
   "msg/Units.msg"
   "msg/Object.msg"
+  "msg/Robot.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
