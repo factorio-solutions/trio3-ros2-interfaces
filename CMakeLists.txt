@@ -54,6 +54,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetColorImage.srv"
   "srv/SetRequest.srv"
   "srv/CheckCoordinate.srv"
+  "srv/GetObject.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
@@ -71,6 +72,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ColorImage.msg"
   "msg/CoreActionPhase.msg"
   "msg/Units.msg"
+  "msg/Object.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
