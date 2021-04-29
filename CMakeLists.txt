@@ -51,11 +51,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetHomePose.srv"
   "srv/PoseUpdate.srv"
   "srv/PoseUpdateObject.srv"
+  "srv/PoseUpdateRobot.srv"
   "srv/GetColorImage.srv"
   "srv/SetRequest.srv"
   "srv/CheckCoordinate.srv"
   "srv/GetObject.srv"
   "srv/GetRobot.srv"
+  "srv/GetRobots.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
@@ -75,6 +77,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Units.msg"
   "msg/Object.msg"
   "msg/Robot.msg"
+  "msg/Matrix4x4.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
