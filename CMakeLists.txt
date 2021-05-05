@@ -46,6 +46,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/TrifocalScan.action"
   "action/ReplanMotion.action"
   "action/HandEyeCalibration.action"
+  "action/DetectGrasp.action"
 
   "srv/GetRobotStatus.srv"
   "srv/GetHomePose.srv"

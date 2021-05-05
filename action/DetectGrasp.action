@@ -1,0 +1,12 @@
+geometry_msgs/Pose item_position
+sensor_msgs/PointCloud2 item_point_cloud
+sensor_msgs/PointCloud2 scene_point_cloud
+
+---
+
+geometry_msgs/Pose grasp_position
+float32 fingers_open_distance #mm
+
+---
+
+string status
