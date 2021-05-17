@@ -43,7 +43,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/PickNPlace.action"
   "action/ReplanTrajectory.action"
   "action/RobotMove.action"
-  "action/TrifocalScan.action"
+  "action/GetPointCloud.action"
   "action/ReplanMotion.action"
   "action/HandEyeCalibration.action"
   "action/DetectGrasp.action"
@@ -60,6 +60,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetRobot.srv"
   "srv/GetRobots.srv"
   "srv/GetTransformation.srv"
+  "srv/GetDepthImage.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
@@ -80,6 +81,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Object.msg"
   "msg/Robot.msg"
   "msg/Matrix4x4.msg"
+  "msg/DepthImage.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
