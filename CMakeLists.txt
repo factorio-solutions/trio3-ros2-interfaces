@@ -61,6 +61,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetRobots.srv"
   "srv/GetTransformation.srv"
   "srv/GetDepthImage.srv"
+  "srv/ProcessImage.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
