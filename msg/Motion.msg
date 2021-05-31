@@ -21,6 +21,9 @@ float32[7] end_joints
 Sector start_sector
 Sector end_sector
 
+int32 start_gripper_position
+int32 end_gripper_position
+
 MoveGripper move_gripper
 
 MotionType motion_type
