@@ -41,10 +41,10 @@ find_package(sensor_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Align.action"
   "action/PickNPlace.action"
-  "action/ReplanTrajectory.action"
+  "action/PlanTrajectory.action"
+  "action/ReplanMotion.action"
   "action/RobotMove.action"
   "action/GetPointCloud.action"
-  "action/ReplanMotion.action"
   "action/HandEyeCalibration.action"
   "action/DetectGrasp.action"
 
