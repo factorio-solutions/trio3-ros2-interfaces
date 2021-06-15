@@ -62,6 +62,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetTransformation.srv"
   "srv/GetDepthImage.srv"
   "srv/ProcessImage.srv"
+  "srv/GetMaskedPointCloud.srv"
 
   "msg/GripperStatus.msg"
   "msg/ObjectType.msg"
