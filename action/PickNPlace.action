@@ -6,6 +6,7 @@ ObjectType object_type
 Units request_units
 ---
 bool done
+ActionResultFlag action_result_flag
 ---
 string status
 CoreActionPhase core_action_phase

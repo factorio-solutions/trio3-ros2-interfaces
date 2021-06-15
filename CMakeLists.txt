@@ -84,6 +84,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Robot.msg"
   "msg/Matrix4x4.msg"
   "msg/DepthImage.msg"
+  "msg/ActionResultFlag.msg"
 
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
