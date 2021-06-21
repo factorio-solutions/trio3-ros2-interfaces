@@ -2,6 +2,7 @@
 ObjectType object_type
 geometry_msgs/Pose[] poses
 float32 fingers_open_distance
+Robot robot
 ---
 # A result message is sent from an action server to an action client when a goal is done.
 Trajectory trajectory
