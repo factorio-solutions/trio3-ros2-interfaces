@@ -2,6 +2,7 @@
 geometry_msgs/Pose input_pose
 ObjectType object
 int32 robot_id
+bool use_fix_rotation
 ---
 # Response data type
 geometry_msgs/Pose output_pose
