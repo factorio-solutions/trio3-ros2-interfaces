@@ -11,7 +11,9 @@
 float32[7] start_joints
 geometry_msgs/Pose end_pose
 ReplanMode mode
+Units request_units
 ---
 float32[] joints_sequence
+bool success
 ---
 string status
