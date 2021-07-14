@@ -1,8 +1,0 @@
-# Which robot should release object
-int16 robot_id
----
-bool done
-ActionResultFlag action_result_flag
----
-string status
-CoreActionPhase core_action_phase

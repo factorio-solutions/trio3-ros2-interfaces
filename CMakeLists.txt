@@ -47,7 +47,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/GetPointCloud.action"
   "action/HandEyeCalibration.action"
   "action/DetectGrasp.action"
-  "action/ReleaseObject.action"
 
   "srv/GetRobotStatus.srv"
   "srv/GetHomePose.srv"
