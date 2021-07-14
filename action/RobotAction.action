@@ -1,6 +1,5 @@
 string frame_id
-geometry_msgs/Pose pick_pose
-geometry_msgs/Pose place_pose
+geometry_msgs/Pose[] poses
 float64[3] size
 ObjectType object_type
 Units request_units
@@ -10,4 +9,3 @@ ActionResultFlag action_result_flag
 ---
 string status
 CoreActionPhase core_action_phase
-
