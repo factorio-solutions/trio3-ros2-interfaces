@@ -1,4 +1,5 @@
 string frame_id
+int16 robot_id
 geometry_msgs/Pose[] poses
 float64[3] size
 ObjectType object_type
