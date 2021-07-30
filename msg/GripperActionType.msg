@@ -1,0 +1,6 @@
+int16 type
+
+int16 NONE = 0
+int16 TO_START_POSITION = 1
+int16 GRIP = 2
+int16 RELEASE = 3
