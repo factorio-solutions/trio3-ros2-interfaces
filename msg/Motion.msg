@@ -27,3 +27,4 @@ int32 end_gripper_position
 MoveGripper move_gripper
 
 MotionType motion_type
+GripperActionType gripper_action_type

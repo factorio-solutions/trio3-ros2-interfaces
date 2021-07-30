@@ -65,6 +65,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetMaskedPointCloud.srv"
 
   "msg/GripperStatus.msg"
+  "msg/GripperActionType.msg"
   "msg/ObjectType.msg"
   "msg/RobotStatus.msg"
   "msg/StopStatus.msg"
