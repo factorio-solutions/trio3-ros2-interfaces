@@ -13,6 +13,7 @@ float32 upper_bound_z
 int16 robot_id
 
 geometry_msgs/Pose object_2_tcp
+geometry_msgs/Pose fix_object_2_tcp
 float32[3] approach_z_vector
 float32 approach_max_angle_rad
 int16 approach_sign_at_z_in_x
