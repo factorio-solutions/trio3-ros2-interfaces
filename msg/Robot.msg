@@ -1,5 +1,6 @@
 int32 id
 string name
+geometry_msgs/Pose robot_base
 
 geometry_msgs/Pose global_2_robot
 geometry_msgs/Pose object_2_tcp
