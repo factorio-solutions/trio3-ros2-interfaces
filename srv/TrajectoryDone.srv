@@ -1,0 +1,4 @@
+---
+bool is_trajectory_done
+bool success
+ActionResultFlag action_result_flag

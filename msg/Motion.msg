@@ -29,3 +29,5 @@ MoveGripper move_gripper
 MotionType motion_type
 GripperActionType gripper_action_type
 TypeOfApproach type_of_approach
+
+bool is_final_move

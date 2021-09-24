@@ -47,6 +47,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/GetPointCloud.action"
   "action/HandEyeCalibration.action"
   "action/DetectGrasp.action"
+  "action/AddRobotMotion.action"
 
   "srv/GetRobotStatus.srv"
   "srv/GetHomePose.srv"
@@ -63,6 +64,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetDepthImage.srv"
   "srv/ProcessImage.srv"
   "srv/GetMaskedPointCloud.srv"
+  "srv/TrajectoryDone.srv"
 
   "msg/GripperStatus.msg"
   "msg/GripperActionType.msg"
