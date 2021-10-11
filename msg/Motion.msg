@@ -30,4 +30,6 @@ MotionType motion_type
 GripperActionType gripper_action_type
 TypeOfApproach type_of_approach
 
+string trajectory_id
+
 bool is_final_move
