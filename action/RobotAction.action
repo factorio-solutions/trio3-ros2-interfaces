@@ -4,6 +4,7 @@ geometry_msgs/Pose[] poses
 float64[3] size
 ObjectType object_type
 Units request_units
+RobotActionType robot_action_type
 ---
 bool done
 ActionResultFlag action_result_flag
