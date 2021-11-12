@@ -1,0 +1,6 @@
+geometry_msgs/Pose initial_pose
+float32 fingers_distance
+ObjectType object_type
+Units request_units
+---
+geometry_msgs/Pose object_pose

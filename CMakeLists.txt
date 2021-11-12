@@ -65,6 +65,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ProcessImage.srv"
   "srv/GetMaskedPointCloud.srv"
   "srv/TrajectoryDone.srv"
+  "srv/ObjectInGripper.srv"
 
   "msg/GripperStatus.msg"
   "msg/GripperActionType.msg"
