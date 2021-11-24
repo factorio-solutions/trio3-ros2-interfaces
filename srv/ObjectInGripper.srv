@@ -4,3 +4,4 @@ ObjectType object_type
 Units request_units
 ---
 geometry_msgs/Pose object_pose
+float32 stddev
